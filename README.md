@@ -85,7 +85,7 @@ var bool = isEmptyArrayLikeObject( { 'length': 0 } );
 bool = isEmptyArrayLikeObject( [] );
 // returns true
 
-bool = isEmptyArrayLikeObject( new Float64Array( 0 ) );
+bool = isEmptyArrayLikeObject( new Float64Array( [] ) );
 // returns true
 
 bool = isEmptyArrayLikeObject( 'beep' );

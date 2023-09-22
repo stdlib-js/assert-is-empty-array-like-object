@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEmptyArrayLikeObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-empty-array-like-object@deno/mod.js';
+import isEmptyArrayLikeObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-empty-array-like-object@v0.1.0-deno/mod.js';
 ```
 
 #### isEmptyArrayLikeObject( value )
@@ -80,7 +80,7 @@ var bool = isEmptyArrayLikeObject( '' );
 
 ```javascript
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import isEmptyArrayLikeObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-empty-array-like-object@deno/mod.js';
+import isEmptyArrayLikeObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-empty-array-like-object@v0.1.0-deno/mod.js';
 
 var bool = isEmptyArrayLikeObject( { 'length': 0 } );
 // returns true

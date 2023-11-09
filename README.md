@@ -137,6 +137,14 @@ bool = isEmptyArrayLikeObject( function noop() {} );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/assert-is-array-like-object`][@stdlib/assert/is-array-like-object]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object.</span>
+-   <span class="package-name">[`@stdlib/assert-is-empty-array`][@stdlib/assert/is-empty-array]</span><span class="delimiter">: </span><span class="description">test if a value is an empty array.</span>
+-   <span class="package-name">[`@stdlib/assert-is-empty-collection`][@stdlib/assert/is-empty-collection]</span><span class="delimiter">: </span><span class="description">test if a value is an empty collection.</span>
+
 </section>
 
 <!-- /.related -->
@@ -213,6 +221,12 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [array-like]: http://www.2ality.com/2013/05/quirk-array-like-objects.html
 
 <!-- <related-links> -->
+
+[@stdlib/assert/is-array-like-object]: https://github.com/stdlib-js/assert-is-array-like-object
+
+[@stdlib/assert/is-empty-array]: https://github.com/stdlib-js/assert-is-empty-array
+
+[@stdlib/assert/is-empty-collection]: https://github.com/stdlib-js/assert-is-empty-collection
 
 <!-- </related-links> -->
 

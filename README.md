@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEmptyArrayLikeObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-empty-array-like-object@esm/index.mjs';
+import isEmptyArrayLikeObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-empty-array-like-object@v0.2.0-esm/index.mjs';
 ```
 
 #### isEmptyArrayLikeObject( value )
@@ -85,7 +85,7 @@ var bool = isEmptyArrayLikeObject( '' );
 <script type="module">
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import isEmptyArrayLikeObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-empty-array-like-object@esm/index.mjs';
+import isEmptyArrayLikeObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-empty-array-like-object@v0.2.0-esm/index.mjs';
 
 var bool = isEmptyArrayLikeObject( { 'length': 0 } );
 // returns true
